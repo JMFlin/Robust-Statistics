@@ -20,7 +20,7 @@ library(robustbase)
 
 
 
-#-------------1 MY OWN
+#-------------1
 
 my_data <- cars
 summary(my_data)#Klaus looked at this and said that if you want to standardize or center you can only subtract
@@ -132,7 +132,7 @@ summary(model_robust)#4 observations c(1,3,4,21) are outliers
 #Outlier residuals are downweighted!
 #This is iteratively reweighted least squares (IRWLS)
 
-#ANOVA saman mallin eri muotoja. Ei eri metoedien välilla!
+#ANOVA saman mallin eri muotoja. Ei eri metoedien vÃ¤lilla!
 
 #compare residuals and intercept. Can't use model fit. If the parameter estimates differ a lot
 #Use robust fit if they differ.
